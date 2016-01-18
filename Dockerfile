@@ -6,6 +6,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     strace \
     build-essential \
     git \
-    wget
+    wget \
+    curl
 
 CMD ["bash"]
