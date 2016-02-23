@@ -9,7 +9,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     wget \
     curl \
     nmap \
-    lua \
+    lua5.3 \
     luajit
 
 CMD ["bash"]
