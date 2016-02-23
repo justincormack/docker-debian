@@ -11,6 +11,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     nmap \
     lua5.2 \
     luajit \
-    zsh
+    zsh \
+    vim
 
 CMD ["bash"]
