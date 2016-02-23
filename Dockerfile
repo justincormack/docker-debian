@@ -1,4 +1,4 @@
-FROM debian:unstable
+FROM debian:jessie
 MAINTAINER Justin Cormack <justin@specialbusservice.com>
 
 RUN apt-get -y update && apt-get -y upgrade && \
