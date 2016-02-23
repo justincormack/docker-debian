@@ -9,7 +9,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     wget \
     curl \
     nmap \
-    lua5.3 \
+    lua5.2 \
     luajit \
     zsh
 
