@@ -8,6 +8,8 @@ RUN apt-get -y update && apt-get -y upgrade && \
     git \
     wget \
     curl \
-    nmap
+    nmap \
+    lua \
+    luajit
 
 CMD ["bash"]
