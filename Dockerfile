@@ -7,6 +7,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     build-essential \
     git \
     wget \
-    curl
+    curl \
+    nmap
 
 CMD ["bash"]
