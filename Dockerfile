@@ -13,6 +13,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     luajit \
     zsh \
     pdf2svg \
+    ghostscript \
     vim
 
 CMD ["bash"]
