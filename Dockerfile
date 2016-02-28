@@ -15,6 +15,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     pdf2svg \
     ghostscript \
     imagemagick \
+    webfs \
     vim
 
 CMD ["bash"]
