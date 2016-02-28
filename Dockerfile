@@ -14,6 +14,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     zsh \
     pdf2svg \
     ghostscript \
+    imagemagick \
     vim
 
 CMD ["bash"]
