@@ -12,6 +12,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     lua5.2 \
     luajit \
     zsh \
+    pdf2svg \
     vim
 
 CMD ["bash"]
