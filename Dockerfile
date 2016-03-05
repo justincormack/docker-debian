@@ -15,7 +15,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     pdf2svg \
     ghostscript \
     imagemagick \
-    netstat \
+    net-tools \
     vim
 
 CMD ["bash"]
