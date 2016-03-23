@@ -17,6 +17,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     imagemagick \
     net-tools \
     python3 \
+    s3cmd \
     vim
 
 CMD ["bash"]
