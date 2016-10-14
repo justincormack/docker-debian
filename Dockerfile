@@ -18,6 +18,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     net-tools \
     python3 \
     s3cmd \
+    sox \
     webfs \
     vim
 
