@@ -23,7 +23,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     webfs \
     vim
 
-RUN mkdir -p /root/go
-ENV GOPATH=/root/go
+RUN mkdir -p /go
+ENV GOPATH=/go
 
 CMD ["bash"]
