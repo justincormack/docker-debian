@@ -1,5 +1,4 @@
-FROM debian:jessie
-MAINTAINER Justin Cormack <justin@specialbusservice.com>
+FROM debian:stretch
 
 RUN apt-get -y update && apt-get -y upgrade && \
   apt-get -y install \
@@ -7,6 +6,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     alsa-utils \
     build-essential \
     git \
+    golang \
     wget \
     curl \
     nmap \
@@ -22,5 +22,8 @@ RUN apt-get -y update && apt-get -y upgrade && \
     sox \
     webfs \
     vim
+
+RUN mkdir -p /root/go
+ENV GOPATH=/root/go
 
 CMD ["bash"]
