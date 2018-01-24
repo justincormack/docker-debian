@@ -9,6 +9,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     golang \
     wget \
     curl \
+    libcap2-bin \
     nmap \
     lua5.2 \
     luajit \
