@@ -7,6 +7,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     build-essential \
     git \
     golang \
+    keyutils \
     wget \
     curl \
     libcap2-bin \
