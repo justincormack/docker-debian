@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 
 RUN apt-get -y update && apt-get -y upgrade && \
   apt-get -y install \
@@ -20,7 +20,6 @@ RUN apt-get -y update && apt-get -y upgrade && \
     imagemagick \
     net-tools \
     python3 \
-    s3cmd \
     sox \
     webfs \
     vim
