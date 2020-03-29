@@ -19,6 +19,7 @@ RUN apt-get -y update && apt-get -y upgrade && \
     ghostscript \
     imagemagick \
     net-tools \
+    procps \
     python3 \
     s3cmd \
     sox \
